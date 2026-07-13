@@ -86,6 +86,7 @@ struct KeyCollection_t9BA4F150BD8A74C5080C0EED2E58A141A2A1446F;
 struct KeyCollection_tBE52150FDFAE20C89A1AD56204B0D06CB48A93BA;
 struct KeyCollection_tEBE08B15420BC67BA2CCF00CB0FC401CEE1820A9;
 struct KeyCollection_tDE96E24FD1579C15E7E58700F5DFE8F85796DE89;
+struct Lazy_1_t9A806C3A851DEE5A2D3B9FC8C942F3B28784682F;
 struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
 struct List_1_tFED1C27AA4B8AC9813FF4858B3ABB1B3F74558EF;
 struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
@@ -300,7 +301,7 @@ struct U3CTempProjectileU3Ed__97_t63193F5C29F1E8D88FE0033228ACF010D4C6CEEE;
 struct U3CTigerAttackPulseU3Ed__108_tF6F8F2B0694E6C6FE71C6086D68828758231E8A1;
 struct U3CTigerFollowU3Ed__105_tC4CEA75A66A5A7B356E1493C7030C00BF6611E86;
 struct U3CU3Ec__DisplayClass30_0_tC4D52DD6CF7888929B722AD579103F7CA2299259;
-struct U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265;
+struct U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F;
 struct U3CU3Ec__DisplayClass1_0_t71E369DD651E76646076FBB6558C655CC1C10663;
 struct U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75;
 struct U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052;
@@ -386,8 +387,8 @@ IL2CPP_EXTERN_C RuntimeClass* U3CSubscribeWhenReadyU3Ed__7_t3E1D0E66C433510669B4
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass10_0_t55778154137642B0EAE8F6473441F2E5ECF39AE6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass11_0_t6BB7E61A92489634127BDF97F49B07FE2E8BC50E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass1_0_t71E369DD651E76646076FBB6558C655CC1C10663_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass30_0_tC4D52DD6CF7888929B722AD579103F7CA2299259_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tAEC2A0A5D7DFD666C6DD1081C600874AA3E6A430_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
@@ -581,6 +582,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFB4D68B94BB2C198E0F3FCEFD13C4723B6A582AA
 IL2CPP_EXTERN_C String_t* _stringLiteralFCB8CBB7D913FAB2C2CF8632B9E086731411B9A0;
 IL2CPP_EXTERN_C String_t* _stringLiteralFD19D4FCCECF90CDA21F1FA9036FE9BC2D46C8A5;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m3E1EBDB4D8FA53122CE69A52ED55EED8554249DF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m60A1B193FDBBFB3719065622DB5E0BB21CA4ABDC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisEnemyBase_t46A1023DF0F7435FF4B79D1E0339B9FAA6F9E28D_m2F4584B99DD279613BF8E056969875922CE01422_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95_mE0F30FCA06CA7FB143ED3372C3A4070FB8708130_RuntimeMethod_var;
@@ -613,8 +615,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaSlot_U3CBuildUIU3Eb__11_0_mEBF4
 IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_Hide_m0CC0058CF1F5086E6699F0E585E6803666880189_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_OnSlotClicked_mF5D84EA80EDA96CFD86CEA657854E81AF4C26F5E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_RefreshAllSlots_mA3B9347F9207CD7D2B6F741AE13F33C5E213DB88_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_U3CBuildFooterU3Eb__25_0_m6B3004CCF0D39BA96DA09781FF8C5EC96A77E264_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_U3CBuildFooterU3Eb__25_1_m607CDD0C08B7089A66D9B2AB0B27700742DDF0E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_U3CBuildFooterU3Eb__28_0_mF856CC8B20B175D4F9D2A05EA207526A11A05737_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EncyclopediaUI_U3CBuildFooterU3Eb__28_1_mC8B005CEF053AD4AF1C32FBEDB91CE766ACA71A1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToList_TisItemData_t7FB0F9911AFA201D097B2B0D2353002ECE882538_m9908BB9ED84AF1183C2ACA7F149C64A99DFF26DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisItemData_t7FB0F9911AFA201D097B2B0D2353002ECE882538_m1E83B72D7C34093CD108D842BD0A9E56DDC66A59_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var;
@@ -704,7 +706,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass10_0_U3CHandleWeaponU3
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass11_0_U3CHandleAccessoryU3Eb__0_m5628A2D78EF3551F84F95E1214F7A93BF97B05E0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass1_0_U3CGetItemsByCategoryU3Eb__0_m09F6ECD9979FE9722AFCEC6B9AA259B6A5475894_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass30_0_U3CMakeButtonU3Eb__0_mB0E20E5CD199EAE4740C74BE196D24FC45BE247E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass30_0_U3CMakeButtonU3Eb__0_mD3C13613A5C667F7A50190D92A82CD5E5F6FD5CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass33_0_U3CMakeButtonU3Eb__0_m4ADDB8D3424F41CEFD1384016D664C68A249E12A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ValueTuple_2__ctor_m5229EE6E1CB1ECA6735491820B22CE4A3BFF3572_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WeaponController_OnDoosulAcquired_m48335DA738698D8613C9FC0064C5A3FAF9869836_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Weapon_Bunsingeom_U3CSetSwordCountU3Eb__7_0_m9D03652C9E31BC7B04436A82FA25B5425074BCFC_RuntimeMethod_var;
@@ -932,7 +934,7 @@ struct U3CU3Ec__DisplayClass30_0_tC4D52DD6CF7888929B722AD579103F7CA2299259  : pu
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onClick;
 };
-struct U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265  : public RuntimeObject
+struct U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F  : public RuntimeObject
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onClick;
 };
@@ -3093,6 +3095,8 @@ struct EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C  : public MonoBe
 	bool ____isKorean;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____krBtn;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____enBtn;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ____titleText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ____closeButtonText;
 };
 struct EnemyBase_t46A1023DF0F7435FF4B79D1E0339B9FAA6F9E28D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3270,6 +3274,10 @@ struct ShopUI_t962C10A7606C823D4BD8CA1BE8C8A0BF882C05CA  : public MonoBehaviour_
 	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ____toastCoroutine;
 	int32_t ____selectedCharacter;
 	ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* ____characterButtons;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ____titleText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ____closeButtonText;
+	TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* ____rowNameTexts;
+	TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* ____buyButtonTexts;
 };
 struct SwordHitbox_tBBBD601620488D74B8131B3D77FF3B69DB9D4DA0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3963,6 +3971,7 @@ struct GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1_StaticFields
 	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___FrenchOverrides;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___CjkFallbackNameHints;
 	List_1_t06C3ABB0C6F2347B32881E33D154431EADAE3ECF* ___CjkFallbackFonts;
+	Lazy_1_t9A806C3A851DEE5A2D3B9FC8C942F3B28784682F* ___TableKeysByLengthDesc;
 };
 struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields
 {
@@ -5206,6 +5215,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EncyclopediaUI_t4CB654ED4333CF6CD
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EncyclopediaUI_set_Instance_m571D82A9BC72BC1131C527A6028A4B7215A4A995_inline (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_EnsureEncyclopediaManager_mBA3554B7C1ED0437D21CB9C36DD36C9A4298A2C0 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildUI_m3E3E643268609E8FEF80AC2FB3C11D3C38B51754 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_RefreshHeaderLocalization_m3FE65B40F0F8F16BA5063B2C250B5A41322CC1DE (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_RefreshAllSlots_mA3B9347F9207CD7D2B6F741AE13F33C5E213DB88 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) ;
 inline EncyclopediaManager_t8157EEFDD982CF92DA72C9D2DA4E9D09027B4D48* GameObject_AddComponent_TisEncyclopediaManager_t8157EEFDD982CF92DA72C9D2DA4E9D09027B4D48_m5E905A0ED92BF16B2B1D73F6910F32E90521AA64 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -5228,8 +5238,13 @@ inline EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* GameObj
 {
 	return ((  EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameLocalization_Tr_m6AADA903D01F32202EC7E4729AEF569CBF889569 (String_t* ___0_source, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* EncyclopediaUI_MakeText_m5E8A97277A890C30B25C2EDFAC72BFE5A401B228 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_text, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_pos, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_size, float ___4_fontSize, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___5_color, bool ___6_bold, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* EncyclopediaUI_MakeButton_mC522842521B4D8838408373E944363F89B056DF4 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_label, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_pos, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_size, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___4_bgColor, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___5_onClick, const RuntimeMethod* method) ;
+inline TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* Component_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m60A1B193FDBBFB3719065622DB5E0BB21CA4ABDC (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
 inline ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* GameObject_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m9A1CDD55B7236FD82E3D23C87F66E4D010B2C79F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
@@ -5274,7 +5289,7 @@ inline void Action_1__ctor_m229808B812E626AA17A80B3188A6FD12F3DAFF46 (Action_1_t
 	((  void (*) (Action_1_t37398CFF3FC5FE61D9693B4F0C44FB0996CA4061*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaSlot_Setup_m202EDCC214BE46CFF629501B301C1CB698C31662 (EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* __this, EncyclopediaEntry_tD6693DF416584E08BDA521CE69DB59B844C5912A* ___0_entry, bool ___1_isKorean, Action_1_t37398CFF3FC5FE61D9693B4F0C44FB0996CA4061* ___2_onClick, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0__ctor_m4176DD88B13B2B02B2B9E37AC45CE2E465BD2F81 (U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_m54C703DD90AFFE9EB96886B77F7E9E059A347710 (U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_SetLanguage_m0315875EDFC1DBE1003F42084ADD8229EC63D5A3 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, bool ___0_isKorean, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m1C4EC15A0A4609E3644A7D05E5B9FA1856B6C7CD (U3CU3Ec__DisplayClass1_0_t71E369DD651E76646076FBB6558C655CC1C10663* __this, const RuntimeMethod* method) ;
 inline void Func_2__ctor_mDADC150DCC95ED0B1EBEB359C56C866B83EF362A (Func_2_t916830B059E694F3F915DF927809F032A4C6CF93* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
@@ -5410,7 +5425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TitleCollectionUI_Hide_m2C0ADBCC3755B725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnQuit_mCD41850A8B198D949511A7D0F774C9CDD1DB3FD7 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_ShowExitHint_mD4DFB339B37BB3EEE43B0E3A28FF017FFFDC315B (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameLocalization_Tr_m6AADA903D01F32202EC7E4729AEF569CBF889569 (String_t* ___0_source, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideExitHintAfterDelayU3Ed__40__ctor_m5C1CBCFC64D72B6354AF10FF371A56FA8341F240 (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
@@ -16993,19 +17007,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_Show_m7C037DC5BBE4BE7F415
 IL_001a:
 	{
 		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:36>
-		EncyclopediaUI_RefreshAllSlots_mA3B9347F9207CD7D2B6F741AE13F33C5E213DB88(__this, NULL);
+		EncyclopediaUI_RefreshHeaderLocalization_m3FE65B40F0F8F16BA5063B2C250B5A41322CC1DE(__this, NULL);
 		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:37>
+		EncyclopediaUI_RefreshAllSlots_mA3B9347F9207CD7D2B6F741AE13F33C5E213DB88(__this, NULL);
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____panel;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:38>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:39>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____panel;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
 		NullCheck(L_4);
 		Transform_SetAsLastSibling_m848AF1A0B4C7912FE88D8CBCF92B83D57B2B917E(L_4, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:39>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:40>
 		return;
 	}
 }
@@ -17015,7 +17031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_Hide_m0CC0058CF1F5086E669
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B2_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:43>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:44>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____panel;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = L_0;
 		if (L_1)
@@ -17033,7 +17049,7 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(G_B2_0, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:44>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:45>
 		return;
 	}
 }
@@ -17050,7 +17066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_EnsureEncyclopediaManager
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:49>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:50>
 		EncyclopediaManager_t8157EEFDD982CF92DA72C9D2DA4E9D09027B4D48* L_0;
 		L_0 = EncyclopediaManager_get_Instance_m169FCBFB3CD68AF9C96AEEE6FEEE6C2E4C7B6F7A_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -17062,7 +17078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_EnsureEncyclopediaManager
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:50>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:51>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_2, _stringLiteralF96C5B54D661D003EC30847D9F6CCDB3E084384F, NULL);
 		NullCheck(L_2);
@@ -17072,7 +17088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_EnsureEncyclopediaManager
 
 IL_001d:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:51>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:52>
 		return;
 	}
 }
@@ -17084,7 +17100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_RefreshAllSlots_mA3B9347F
 	EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* G_B5_0 = NULL;
 	EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:55>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:56>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_0 = __this->____slots;
 		if (L_0)
 		{
@@ -17092,13 +17108,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_RefreshAllSlots_mA3B9347F
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:55>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:56>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:56>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:57>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_1 = __this->____slots;
 		V_0 = L_1;
 		V_1 = 0;
@@ -17107,13 +17123,13 @@ IL_0009:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:56>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:57>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:56>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:57>
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_6 = L_5;
 		if (L_6)
 		{
@@ -17140,7 +17156,7 @@ IL_0022:
 
 IL_0026:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:56>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:57>
 		int32_t L_8 = V_1;
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_9 = V_0;
 		NullCheck(L_9);
@@ -17150,7 +17166,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:57>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:58>
 		return;
 	}
 }
@@ -17162,12 +17178,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_SetLanguage_m0315875EDFC1
 	EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* G_B4_0 = NULL;
 	EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:61>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:62>
 		bool L_0 = ___0_isKorean;
 		__this->____isKorean = L_0;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:62>
-		EncyclopediaUI_UpdateTabColors_mB606E9E49E0B8F7161E29D09C659E1E994CBF5F7(__this, NULL);
 		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:63>
+		EncyclopediaUI_UpdateTabColors_mB606E9E49E0B8F7161E29D09C659E1E994CBF5F7(__this, NULL);
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:64>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_1 = __this->____slots;
 		if (!L_1)
 		{
@@ -17175,7 +17191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_SetLanguage_m0315875EDFC1
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:64>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:65>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_2 = __this->____slots;
 		V_0 = L_2;
 		V_1 = 0;
@@ -17184,13 +17200,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_SetLanguage_m0315875EDFC1
 
 IL_0020:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:64>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:65>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:64>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:65>
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_7 = L_6;
 		if (L_7)
 		{
@@ -17218,7 +17234,7 @@ IL_002f:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:64>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:65>
 		int32_t L_10 = V_1;
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_11 = V_0;
 		NullCheck(L_11);
@@ -17230,7 +17246,7 @@ IL_0033:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:65>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:66>
 		return;
 	}
 }
@@ -17256,7 +17272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_UpdateTabColors_mB606E9E4
 	memset((&G_B9_0), 0, sizeof(G_B9_0));
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B9_1 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:69>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:70>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____krBtn;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17267,7 +17283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_UpdateTabColors_mB606E9E4
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:69>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:70>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->____krBtn;
 		NullCheck(L_2);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3;
@@ -17304,7 +17320,7 @@ IL_002c:
 
 IL_0031:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:70>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:71>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->____enBtn;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -17315,7 +17331,7 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:70>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:71>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->____enBtn;
 		NullCheck(L_9);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10;
@@ -17352,7 +17368,7 @@ IL_005d:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:71>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:72>
 		return;
 	}
 }
@@ -17369,7 +17385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_OnSlotClicked_mF5D84EA80E
 	EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* G_B2_0 = NULL;
 	EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:75>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:76>
 		EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* L_0 = __this->____detailView;
 		EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* L_1 = L_0;
 		if (L_1)
@@ -17391,7 +17407,7 @@ IL_000b:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)EncyclopediaUI_RefreshAllSlots_mA3B9347F9207CD7D2B6F741AE13F33C5E213DB88_RuntimeMethod_var), NULL);
 		NullCheck(G_B2_0);
 		EncyclopediaDetailView_Show_m74799315ADCC2A228D83323A2458A9DB15069ED9(G_B2_0, L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:76>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:77>
 		return;
 	}
 }
@@ -17420,12 +17436,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildUI_m3E3E643268609E8F
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:81>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:82>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0;
 		L_0 = Object_FindFirstObjectByType_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m18566EA543B536F04C35FD1AAAD66A86D5649418(Object_FindFirstObjectByType_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m18566EA543B536F04C35FD1AAAD66A86D5649418_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:82>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:83>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1 = V_0;
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -17435,17 +17451,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildUI_m3E3E643268609E8F
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:84>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralBE52C3B62CE3A7B112CBC71D8E5B1E8DB0246474, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:85>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:86>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:89>
 		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:90>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:91>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_3 = V_0;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -17458,15 +17474,15 @@ IL_001a:
 		L_6 = EncyclopediaUI_MakePanel_m1FC26AD12B88C92363252C7AEA4475AAB4DE6D96(L_4, _stringLiteralF73ED0BA2C3E055D4C07A768E39AA5D08A0CC072, L_5, NULL);
 		__this->____panel = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____panel), (void*)L_6);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:91>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:92>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->____panel;
 		NullCheck(L_7);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8;
 		L_8 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_7, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		EncyclopediaUI_SetStretch_mC4CB2E9F2BE691C16E8350F1A52A204E6BDB044E(L_8, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:94>
 		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:95>
 		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:96>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:97>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____panel;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -17482,25 +17498,25 @@ IL_001a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = EncyclopediaUI_MakeBoxPanel_mDB01139A21B555CAB3D99ADFC8C0639CF8A4351A(L_10, _stringLiteralBEA1C1FC4991BEA4C5C3473788758C174B98177A, L_11, L_12, L_13, NULL);
 		V_1 = L_14;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:98>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:99>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_1;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
 		EncyclopediaUI_BuildHeader_mAD78622BDBD24F2FE5BBABE829DFB3616BA9DC79(__this, L_16, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:99>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:100>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_1;
 		NullCheck(L_17);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
 		L_18 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_17, NULL);
 		EncyclopediaUI_BuildScrollView_m957BA57C8B4C5F2C9FB27E45E030449E8BAE5DC3(__this, L_18, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:100>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:101>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_1;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_19, NULL);
 		EncyclopediaUI_BuildFooter_mC30D4ED343B5DD6859C91887CFCA581FF63AB5AA(__this, L_20, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:103>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:104>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_21 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)1);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_22 = L_21;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_23 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -17513,7 +17529,7 @@ IL_001a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_25, _stringLiteralF251C1E7887D9EA0671514B1896616CEB172D3E0, L_22, NULL);
 		V_2 = L_25;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:104>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:105>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_2;
 		NullCheck(L_26);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -17524,28 +17540,28 @@ IL_001a:
 		L_29 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_28, NULL);
 		NullCheck(L_27);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_27, L_29, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:105>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:106>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_2;
 		NullCheck(L_30);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_31;
 		L_31 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_30, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		EncyclopediaUI_SetStretch_mC4CB2E9F2BE691C16E8350F1A52A204E6BDB044E(L_31, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:106>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:107>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = V_2;
 		NullCheck(L_32);
 		EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* L_33;
 		L_33 = GameObject_AddComponent_TisEncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15_m9521F28F45A650A42186E0DEB4B8E42C7628B178(L_32, GameObject_AddComponent_TisEncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15_m9521F28F45A650A42186E0DEB4B8E42C7628B178_RuntimeMethod_var);
 		__this->____detailView = L_33;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____detailView), (void*)L_33);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:107>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:108>
 		EncyclopediaDetailView_t6E546AF5666E59571F236A5B9777475004192A15* L_34 = __this->____detailView;
 		NullCheck(L_34);
 		EncyclopediaDetailView_Init_m397B9E280BBAC727A99DA0E71F87E9AD192DBE21(L_34, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:109>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:110>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->____panel;
 		NullCheck(L_35);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:110>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:111>
 		return;
 	}
 }
@@ -17556,50 +17572,129 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildHeader_mAD78622BDBD2
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m60A1B193FDBBFB3719065622DB5E0BB21CA4ABDC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_Hide_m0CC0058CF1F5086E6699F0E585E6803666880189_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07FD341A775FBF2DD5F65AF725ADDCA505D244A2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1D755A6B45423D7FBBEC6EA225DE166CBE0F9612);
+		s_Il2CppMethodInitialized = true;
+	}
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* V_0 = NULL;
+	{
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:121>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:122>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:123>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
+		il2cpp_codegen_runtime_class_init_inline(GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1_il2cpp_TypeInfo_var);
+		String_t* L_1;
+		L_1 = GameLocalization_Tr_m6AADA903D01F32202EC7E4729AEF569CBF889569(_stringLiteral07FD341A775FBF2DD5F65AF725ADDCA505D244A2, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_2), (0.0f), (330.0f), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3), (400.0f), (60.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
+		L_4 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5;
+		L_5 = EncyclopediaUI_MakeText_m5E8A97277A890C30B25C2EDFAC72BFE5A401B228(L_0, L_1, L_2, L_3, (30.0f), L_4, (bool)1, NULL);
+		__this->____titleText = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____titleText), (void*)L_5);
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:125>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:126>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:127>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = ___0_parent;
+		String_t* L_7;
+		L_7 = GameLocalization_Tr_m6AADA903D01F32202EC7E4729AEF569CBF889569(_stringLiteral1D755A6B45423D7FBBEC6EA225DE166CBE0F9612, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), (650.0f), (330.0f), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_9), (100.0f), (50.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_10), (0.550000012f), (0.100000001f), (0.100000001f), NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, __this, (intptr_t)((void*)EncyclopediaUI_Hide_m0CC0058CF1F5086E6699F0E585E6803666880189_RuntimeMethod_var), NULL);
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12;
+		L_12 = EncyclopediaUI_MakeButton_mC522842521B4D8838408373E944363F89B056DF4(L_6, L_7, L_8, L_9, L_10, L_11, NULL);
+		V_0 = L_12;
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:128>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = V_0;
+		NullCheck(L_13);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14;
+		L_14 = Component_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m60A1B193FDBBFB3719065622DB5E0BB21CA4ABDC(L_13, Component_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m60A1B193FDBBFB3719065622DB5E0BB21CA4ABDC_RuntimeMethod_var);
+		__this->____closeButtonText = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____closeButtonText), (void*)L_14);
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:129>
+		return;
+	}
+}
+// Method Definition Index: 51966
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_RefreshHeaderLocalization_m3FE65B40F0F8F16BA5063B2C250B5A41322CC1DE (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07FD341A775FBF2DD5F65AF725ADDCA505D244A2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1D755A6B45423D7FBBEC6EA225DE166CBE0F9612);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:115>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:116>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:117>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1), (0.0f), (330.0f), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
-		memset((&L_2), 0, sizeof(L_2));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_2), (400.0f), (60.0f), NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
-		L_3 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
-		il2cpp_codegen_runtime_class_init_inline(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4;
-		L_4 = EncyclopediaUI_MakeText_m5E8A97277A890C30B25C2EDFAC72BFE5A401B228(L_0, _stringLiteral07FD341A775FBF2DD5F65AF725ADDCA505D244A2, L_1, L_2, (30.0f), L_3, (bool)1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:119>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:120>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:121>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_parent;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
-		memset((&L_6), 0, sizeof(L_6));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), (650.0f), (330.0f), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
-		memset((&L_7), 0, sizeof(L_7));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_7), (100.0f), (50.0f), NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
-		memset((&L_8), 0, sizeof(L_8));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_8), (0.550000012f), (0.100000001f), (0.100000001f), NULL);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)EncyclopediaUI_Hide_m0CC0058CF1F5086E6699F0E585E6803666880189_RuntimeMethod_var), NULL);
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10;
-		L_10 = EncyclopediaUI_MakeButton_mC522842521B4D8838408373E944363F89B056DF4(L_5, _stringLiteral1D755A6B45423D7FBBEC6EA225DE166CBE0F9612, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:122>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:133>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->____titleText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:133>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->____titleText;
+		il2cpp_codegen_runtime_class_init_inline(GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1_il2cpp_TypeInfo_var);
+		String_t* L_3;
+		L_3 = GameLocalization_Tr_m6AADA903D01F32202EC7E4729AEF569CBF889569(_stringLiteral07FD341A775FBF2DD5F65AF725ADDCA505D244A2, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:134>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->____closeButtonText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:134>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->____closeButtonText;
+		il2cpp_codegen_runtime_class_init_inline(GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1_il2cpp_TypeInfo_var);
+		String_t* L_7;
+		L_7 = GameLocalization_Tr_m6AADA903D01F32202EC7E4729AEF569CBF889569(_stringLiteral1D755A6B45423D7FBBEC6EA225DE166CBE0F9612, NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_7);
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 51966
+// Method Definition Index: 51967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C8B4C5F2C9FB27E45E030449E8BAE5DC3 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17645,8 +17740,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 	int32_t V_8 = 0;
 	EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* V_9 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:128>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:129>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:141>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:142>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)3);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = L_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -17673,7 +17768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_10, _stringLiteralD1DA5A63DD8D8B54E3E064E75F289ADA604685F2, L_7, NULL);
 		V_0 = L_10;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:130>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:143>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -17681,12 +17776,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = ___0_parent;
 		NullCheck(L_12);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_12, L_13, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:131>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:144>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
 		NullCheck(L_14);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15;
 		L_15 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_14, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:132>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:145>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = L_15;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = L_16;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_7), (0.5f), (0.5f), NULL);
@@ -17696,20 +17791,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_7;
 		NullCheck(L_17);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_17, L_19, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:133>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:146>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20 = L_16;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
 		memset((&L_21), 0, sizeof(L_21));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_21), (1360.0f), (555.0f), NULL);
 		NullCheck(L_20);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_20, L_21, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:134>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:147>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
 		memset((&L_22), 0, sizeof(L_22));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_22), (0.0f), (20.0f), NULL);
 		NullCheck(L_20);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_20, L_22, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:135>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_0;
 		NullCheck(L_23);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_24;
@@ -17719,30 +17814,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_25), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_24);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_24, L_25);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:137>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_0;
 		NullCheck(L_26);
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_27;
 		L_27 = GameObject_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m9A1CDD55B7236FD82E3D23C87F66E4D010B2C79F(L_26, GameObject_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m9A1CDD55B7236FD82E3D23C87F66E4D010B2C79F_RuntimeMethod_var);
 		V_1 = L_27;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:138>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:151>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_28 = V_1;
 		NullCheck(L_28);
 		ScrollRect_set_horizontal_m99C076AF2B2B596C87435E1465EF0B104281B150_inline(L_28, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:139>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:152>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_29 = V_1;
 		NullCheck(L_29);
 		ScrollRect_set_vertical_m972088E788E72690AAE139E7C0F8F634C325E7CE_inline(L_29, (bool)1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:140>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:153>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_30 = V_1;
 		NullCheck(L_30);
 		ScrollRect_set_scrollSensitivity_m07A6D8B94625BC52775BED72633CCBEA41E27E1D_inline(L_30, (25.0f), NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:141>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:154>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_31 = V_1;
 		NullCheck(L_31);
 		ScrollRect_set_movementType_m2A900C10E6C005FD6866EFF1DA2DF78AA957534A_inline(L_31, 2, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:144>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:145>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:157>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:158>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_32 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)3);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_33 = L_32;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -17768,7 +17863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_42, _stringLiteral47A5B6A470F6113005195D6115F426DC36E8B65F, L_39, NULL);
 		V_2 = L_42;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:146>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = V_2;
 		NullCheck(L_43);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
@@ -17779,25 +17874,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		L_46 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_45, NULL);
 		NullCheck(L_44);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_44, L_46, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:147>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:160>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_47 = V_2;
 		NullCheck(L_47);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_48;
 		L_48 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_47, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		V_3 = L_48;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:148>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:161>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_49 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_50;
 		L_50 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_49);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_49, L_50, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:149>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:162>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_51 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52;
 		L_52 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_51);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_51, L_52, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:150>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:163>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_53 = V_3;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_54 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_55;
@@ -17809,7 +17904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_57 = V_7;
 		NullCheck(L_53);
 		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_53, L_57, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:151>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:164>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58 = V_2;
 		NullCheck(L_58);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_59;
@@ -17819,20 +17914,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_60), (1.0f), (1.0f), (1.0f), (0.00200000009f), NULL);
 		NullCheck(L_59);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_59, L_60);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:152>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:165>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = V_2;
 		NullCheck(L_61);
 		Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* L_62;
 		L_62 = GameObject_GetComponent_TisMask_tE8E16C858EC6ECCE545C03802BD1399F7F406213_m25C8620453831113C9063019F4E90A35F0B737AF(L_61, GameObject_GetComponent_TisMask_tE8E16C858EC6ECCE545C03802BD1399F7F406213_m25C8620453831113C9063019F4E90A35F0B737AF_RuntimeMethod_var);
 		NullCheck(L_62);
 		Mask_set_showMaskGraphic_m9F288D22259CFD781D5A4D9B9747C2A2895E7D67(L_62, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:153>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:166>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_63 = V_1;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_64 = V_3;
 		NullCheck(L_63);
 		ScrollRect_set_viewport_m53D91C0869950B18953E163E9A3CE5E7AFB0A262(L_63, L_64, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:156>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:157>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:169>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:170>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_65 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)3);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_66 = L_65;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_67 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -17858,7 +17953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_75, _stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1, L_72, NULL);
 		V_4 = L_75;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:158>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:171>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_76 = V_4;
 		NullCheck(L_76);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_77;
@@ -17869,34 +17964,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		L_79 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_78, NULL);
 		NullCheck(L_77);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_77, L_79, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:159>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:172>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_80 = V_4;
 		NullCheck(L_80);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_81;
 		L_81 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_80, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		V_5 = L_81;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:160>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:173>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_82 = V_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_83;
 		memset((&L_83), 0, sizeof(L_83));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_83), (0.0f), (1.0f), NULL);
 		NullCheck(L_82);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_82, L_83, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:161>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:174>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_84 = V_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_85;
 		memset((&L_85), 0, sizeof(L_85));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_85), (1.0f), (1.0f), NULL);
 		NullCheck(L_84);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_84, L_85, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:162>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:175>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_86 = V_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_87;
 		memset((&L_87), 0, sizeof(L_87));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_87), (0.5f), (1.0f), NULL);
 		NullCheck(L_86);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_86, L_87, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:163>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:176>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_88 = V_5;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_89 = V_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_90;
@@ -17908,72 +18003,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_92 = V_7;
 		NullCheck(L_88);
 		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_88, L_92, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:164>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:177>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_93 = V_1;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_94 = V_5;
 		NullCheck(L_93);
 		ScrollRect_set_content_m01BF6FE0205985CBD16C6D3BB4B6F345B3AF484E_inline(L_93, L_94, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:166>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:179>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95 = V_4;
 		NullCheck(L_95);
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_96;
 		L_96 = GameObject_GetComponent_TisGridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940_mDF4A2E04045EFD3D063DDB65366582425319C960(L_95, GameObject_GetComponent_TisGridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940_mDF4A2E04045EFD3D063DDB65366582425319C960_RuntimeMethod_var);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:167>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:180>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_97 = L_96;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_98;
 		memset((&L_98), 0, sizeof(L_98));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_98), (242.0f), (272.0f), NULL);
 		NullCheck(L_97);
 		GridLayoutGroup_set_cellSize_m0A3FF07694BDBF52D973597978FC87B0941BE5F9(L_97, L_98, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:168>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:181>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_99 = L_97;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_100;
 		memset((&L_100), 0, sizeof(L_100));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_100), (14.0f), (14.0f), NULL);
 		NullCheck(L_99);
 		GridLayoutGroup_set_spacing_mA5550A683F7B4A7A1510B267B5D4CACEB8981306(L_99, L_100, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:169>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:182>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_101 = L_99;
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_102 = (RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5*)il2cpp_codegen_object_new(RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_il2cpp_TypeInfo_var);
 		RectOffset__ctor_m30E309D1C1C0864870686683EF1FCA8DA791D179(L_102, ((int32_t)18), ((int32_t)18), ((int32_t)18), ((int32_t)18), NULL);
 		NullCheck(L_101);
 		LayoutGroup_set_padding_m9F415F3402E5E4AE684FD153493CE3E8D64D3EB7(L_101, L_102, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:170>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:183>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_103 = L_101;
 		NullCheck(L_103);
 		GridLayoutGroup_set_constraint_m632CB37D0D79A12DE81372EE819348CD1226B84A(L_103, 1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:171>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:184>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_104 = L_103;
 		NullCheck(L_104);
 		GridLayoutGroup_set_constraintCount_m685F6D5254B6D77AF8BE070EF3DCA5F049B3D043(L_104, 5, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:172>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:185>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_105 = L_104;
 		NullCheck(L_105);
 		GridLayoutGroup_set_startAxis_m2C9BCD2A1CD3ECFDDF3B0A8B7EE28C48179A7739(L_105, 0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:173>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:186>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_106 = L_105;
 		NullCheck(L_106);
 		GridLayoutGroup_set_startCorner_mCE5A1E957B06BF34173119A5C62B832E279DA78A(L_106, 0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:174>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:187>
 		NullCheck(L_106);
 		LayoutGroup_set_childAlignment_mA97DF1F2CF43C0CD1B83CFE7883626AA86ABB0AF(L_106, 1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:176>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:189>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_107 = V_4;
 		NullCheck(L_107);
 		ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* L_108;
 		L_108 = GameObject_GetComponent_TisContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B_m655A87326C02F724ADAFF5D3C9C8A2F8E45A8CB8(L_107, GameObject_GetComponent_TisContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B_m655A87326C02F724ADAFF5D3C9C8A2F8E45A8CB8_RuntimeMethod_var);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:177>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:190>
 		ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* L_109 = L_108;
 		NullCheck(L_109);
 		ContentSizeFitter_set_verticalFit_m8F61CFD01D4C3D3DC253F30BA8FC2F44F8F927CF(L_109, 2, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:178>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:191>
 		NullCheck(L_109);
 		ContentSizeFitter_set_horizontalFit_m7B0DB223B08B8D578F749DEC381349E7D66DCDE4(L_109, 0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:181>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:194>
 		EncyclopediaDatabase_tE33C5C0D05F3E7B0F9E5F4C229EEF89A568D7F5D* L_110;
 		L_110 = EncyclopediaDatabase_Load_m95E84C6E3310E705C919DA34ACA8C5F774DDDE11(NULL);
 		V_6 = L_110;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:182>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:195>
 		EncyclopediaDatabase_tE33C5C0D05F3E7B0F9E5F4C229EEF89A568D7F5D* L_111 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_112;
@@ -18005,16 +18100,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildScrollView_m957BA57C
 
 IL_02e9:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:184>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:197>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral16BE49E8073D1C8AB17E7F19644D90BA83671E38, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:185>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:198>
 		return;
 	}
 
 IL_02f4:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:188>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:201>
 		EncyclopediaDatabase_tE33C5C0D05F3E7B0F9E5F4C229EEF89A568D7F5D* L_117 = V_6;
 		NullCheck(L_117);
 		EncyclopediaEntryU5BU5D_t86E466BEE1E3A73EDC404E79098203A19B96116F* L_118 = L_117->___entries;
@@ -18022,15 +18117,15 @@ IL_02f4:
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_119 = (EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044*)(EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044*)SZArrayNew(EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_118)->max_length)));
 		__this->____slots = L_119;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____slots), (void*)L_119);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:189>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:202>
 		V_8 = 0;
 		goto IL_03b3;
 	}
 
 IL_0310:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:191>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:192>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:204>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:205>
 		int32_t L_120 = V_8;
 		int32_t L_121 = L_120;
 		RuntimeObject* L_122 = Box(il2cpp_defaults.int32_class, &L_121);
@@ -18054,7 +18149,7 @@ IL_0310:
 		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t*)L_130);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_131 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_131, L_123, L_128, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:193>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:206>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_132 = L_131;
 		NullCheck(L_132);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_133;
@@ -18065,7 +18160,7 @@ IL_0310:
 		L_135 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_134, NULL);
 		NullCheck(L_133);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_133, L_135, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:194>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:207>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_136 = L_132;
 		NullCheck(L_136);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_137;
@@ -18075,12 +18170,12 @@ IL_0310:
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_138), (0.100000001f), (0.100000001f), (0.200000003f), NULL);
 		NullCheck(L_137);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_137, L_138);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:196>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:209>
 		NullCheck(L_136);
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_139;
 		L_139 = GameObject_AddComponent_TisEncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE_m5D9D577CB2D3FE230746837BC60D3C8A2050996B(L_136, GameObject_AddComponent_TisEncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE_m5D9D577CB2D3FE230746837BC60D3C8A2050996B_RuntimeMethod_var);
 		V_9 = L_139;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:197>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:210>
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_140 = V_9;
 		EncyclopediaDatabase_tE33C5C0D05F3E7B0F9E5F4C229EEF89A568D7F5D* L_141 = V_6;
 		NullCheck(L_141);
@@ -18094,21 +18189,21 @@ IL_0310:
 		Action_1__ctor_m229808B812E626AA17A80B3188A6FD12F3DAFF46(L_147, __this, (intptr_t)((void*)EncyclopediaUI_OnSlotClicked_mF5D84EA80EDA96CFD86CEA657854E81AF4C26F5E_RuntimeMethod_var), NULL);
 		NullCheck(L_140);
 		EncyclopediaSlot_Setup_m202EDCC214BE46CFF629501B301C1CB698C31662(L_140, L_145, L_146, L_147, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:198>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:211>
 		EncyclopediaSlotU5BU5D_tC47A11502483F7EA43B93DFEED58EF391D92C044* L_148 = __this->____slots;
 		int32_t L_149 = V_8;
 		EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE* L_150 = V_9;
 		NullCheck(L_148);
 		ArrayElementTypeCheck (L_148, L_150);
 		(L_148)->SetAt(static_cast<il2cpp_array_size_t>(L_149), (EncyclopediaSlot_t442BF749BE01B3BB97C74B70095C491B33054FAE*)L_150);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:189>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:202>
 		int32_t L_151 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_151, 1));
 	}
 
 IL_03b3:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:189>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:202>
 		int32_t L_152 = V_8;
 		EncyclopediaDatabase_tE33C5C0D05F3E7B0F9E5F4C229EEF89A568D7F5D* L_153 = V_6;
 		NullCheck(L_153);
@@ -18120,19 +18215,19 @@ IL_03b3:
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:200>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:213>
 		return;
 	}
 }
-// Method Definition Index: 51967
+// Method Definition Index: 51968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildFooter_mC30D4ED343B5DD6859C91887CFCA581FF63AB5AA (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_U3CBuildFooterU3Eb__25_0_m6B3004CCF0D39BA96DA09781FF8C5EC96A77E264_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_U3CBuildFooterU3Eb__25_1_m607CDD0C08B7089A66D9B2AB0B27700742DDF0E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_U3CBuildFooterU3Eb__28_0_mF856CC8B20B175D4F9D2A05EA207526A11A05737_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_U3CBuildFooterU3Eb__28_1_mC8B005CEF053AD4AF1C32FBEDB91CE766ACA71A1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C8DDD3D0693B4AA3E7000CBE42045B7A51E58B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDCCF22B1EB35EC58FFEB04A8C396594903C38127);
@@ -18140,9 +18235,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildFooter_mC30D4ED343B5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:205>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:206>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:207>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:218>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:219>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:220>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -18156,9 +18251,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildFooter_mC30D4ED343B5
 		il2cpp_codegen_runtime_class_init_inline(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4;
 		L_4 = EncyclopediaUI_MakeText_m5E8A97277A890C30B25C2EDFAC72BFE5A401B228(L_0, _stringLiteralF8F3A8158563ACDB70E1D5C67C4B5090277663C0, L_1, L_2, (20.0f), L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:209>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:210>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:211>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:222>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:223>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:224>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_parent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
@@ -18168,14 +18263,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildFooter_mC30D4ED343B5
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_7), (160.0f), (50.0f), NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ((EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_StaticFields*)il2cpp_codegen_static_fields_for(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var))->___ActiveTabColor;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)EncyclopediaUI_U3CBuildFooterU3Eb__25_0_m6B3004CCF0D39BA96DA09781FF8C5EC96A77E264_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)EncyclopediaUI_U3CBuildFooterU3Eb__28_0_mF856CC8B20B175D4F9D2A05EA207526A11A05737_RuntimeMethod_var), NULL);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10;
 		L_10 = EncyclopediaUI_MakeButton_mC522842521B4D8838408373E944363F89B056DF4(L_5, _stringLiteral4C8DDD3D0693B4AA3E7000CBE42045B7A51E58B3, L_6, L_7, L_8, L_9, NULL);
 		__this->____krBtn = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____krBtn), (void*)L_10);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:213>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:214>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:215>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:226>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:227>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:228>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = ___0_parent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 		memset((&L_12), 0, sizeof(L_12));
@@ -18185,34 +18280,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_BuildFooter_mC30D4ED343B5
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_13), (160.0f), (50.0f), NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = ((EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_StaticFields*)il2cpp_codegen_static_fields_for(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var))->___InactiveTabColor;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_15 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_15, __this, (intptr_t)((void*)EncyclopediaUI_U3CBuildFooterU3Eb__25_1_m607CDD0C08B7089A66D9B2AB0B27700742DDF0E8_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_15, __this, (intptr_t)((void*)EncyclopediaUI_U3CBuildFooterU3Eb__28_1_mC8B005CEF053AD4AF1C32FBEDB91CE766ACA71A1_RuntimeMethod_var), NULL);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_16;
 		L_16 = EncyclopediaUI_MakeButton_mC522842521B4D8838408373E944363F89B056DF4(L_11, _stringLiteralDCCF22B1EB35EC58FFEB04A8C396594903C38127, L_12, L_13, L_14, L_15, NULL);
 		__this->____enBtn = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____enBtn), (void*)L_16);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:216>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:229>
 		return;
 	}
 }
-// Method Definition Index: 51968
+// Method Definition Index: 51969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_SetStretch_mC4CB2E9F2BE691C16E8350F1A52A204E6BDB044E (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rt, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:221>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:234>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rt;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_0);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_0, L_1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:222>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:235>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ___0_rt;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_2);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_2, L_3, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:223>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:236>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = ___0_rt;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ___0_rt;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
@@ -18224,11 +18319,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_SetStretch_mC4CB2E9F2BE69
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
 		NullCheck(L_4);
 		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_4, L_8, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:224>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:237>
 		return;
 	}
 }
-// Method Definition Index: 51969
+// Method Definition Index: 51970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EncyclopediaUI_MakePanel_m1FC26AD12B88C92363252C7AEA4475AAB4DE6D96 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18242,7 +18337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:228>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:241>
 		String_t* L_0 = ___1_name;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)2);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2 = L_1;
@@ -18262,7 +18357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t*)L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_8, L_0, L_5, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:229>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:242>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -18270,7 +18365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = ___0_parent;
 		NullCheck(L_10);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_10, L_11, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:230>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:243>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = L_9;
 		NullCheck(L_12);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13;
@@ -18278,11 +18373,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = ___2_color;
 		NullCheck(L_13);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_13, L_14);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:231>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:244>
 		return L_12;
 	}
 }
-// Method Definition Index: 51970
+// Method Definition Index: 51971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EncyclopediaUI_MakeBoxPanel_mDB01139A21B555CAB3D99ADFC8C0639CF8A4351A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_size, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_pos, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___4_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18295,19 +18390,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:237>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:250>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_parent;
 		String_t* L_1 = ___1_name;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___4_color;
 		il2cpp_codegen_runtime_class_init_inline(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = EncyclopediaUI_MakePanel_m1FC26AD12B88C92363252C7AEA4475AAB4DE6D96(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:238>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:251>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = L_3;
 		NullCheck(L_4);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5;
 		L_5 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_4, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:239>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:252>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = L_5;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = L_6;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), (0.5f), (0.5f), NULL);
@@ -18317,20 +18412,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		NullCheck(L_7);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_7, L_9, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:240>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:253>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = L_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = ___2_size;
 		NullCheck(L_10);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_10, L_11, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:241>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:254>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = ___3_pos;
 		NullCheck(L_10);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_10, L_12, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:242>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:255>
 		return L_4;
 	}
 }
-// Method Definition Index: 51971
+// Method Definition Index: 51972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* EncyclopediaUI_MakeText_m5E8A97277A890C30B25C2EDFAC72BFE5A401B228 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_text, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_pos, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_size, float ___4_fontSize, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___5_color, bool ___6_bold, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18349,7 +18444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEA
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:248>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:261>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)2);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = L_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -18368,7 +18463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEA
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t*)L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_7, _stringLiteral1A82671F2C34BEA09C35354DDB899812746CBCF9, L_4, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:249>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:262>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -18376,12 +18471,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEA
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = ___0_parent;
 		NullCheck(L_9);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_9, L_10, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:250>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:263>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_8;
 		NullCheck(L_11);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12;
 		L_12 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_11, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:251>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:264>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = L_12;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_1), (0.5f), (0.5f), NULL);
@@ -18391,40 +18486,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEA
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_1;
 		NullCheck(L_14);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_14, L_16, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:252>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:265>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = L_13;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = ___2_pos;
 		NullCheck(L_17);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_17, L_18, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:253>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:266>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = ___3_size;
 		NullCheck(L_17);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_17, L_19, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:254>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:267>
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_20;
 		L_20 = GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E(L_11, GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
 		V_0 = L_20;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:255>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:268>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_21 = V_0;
 		String_t* L_22 = ___1_text;
 		NullCheck(L_21);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, L_22);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:256>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:269>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_23 = V_0;
 		float L_24 = ___4_fontSize;
 		NullCheck(L_23);
 		TMP_Text_set_fontSize_m1C3A3BA2BC88E5E1D89375FD35A0AA91E75D3AAD(L_23, L_24, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:257>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:270>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = V_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26 = ___5_color;
 		NullCheck(L_25);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_25, L_26);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:258>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:271>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_27 = V_0;
 		NullCheck(L_27);
 		TMP_Text_set_alignment_mE5216A28797987CC19927ED3CB8DFAC438C6B95A(L_27, ((int32_t)514), NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:259>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:272>
 		bool L_28 = ___6_bold;
 		if (!L_28)
 		{
@@ -18432,7 +18527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEA
 		}
 	}
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:259>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:272>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_29 = V_0;
 		NullCheck(L_29);
 		TMP_Text_set_fontStyle_m61931944B2E922D50087312D80F8685A2F29EBF8(L_29, 1, NULL);
@@ -18440,12 +18535,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEA
 
 IL_009c:
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:260>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:273>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_30 = V_0;
 		return L_30;
 	}
 }
-// Method Definition Index: 51972
+// Method Definition Index: 51973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* EncyclopediaUI_MakeButton_mC522842521B4D8838408373E944363F89B056DF4 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_label, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_pos, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_size, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___4_bgColor, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___5_onClick, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18460,27 +18555,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass30_0_U3CMakeButtonU3Eb__0_mD3C13613A5C667F7A50190D92A82CD5E5F6FD5CD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass33_0_U3CMakeButtonU3Eb__0_m4ADDB8D3424F41CEFD1384016D664C68A249E12A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* V_0 = NULL;
+	U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* V_0 = NULL;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* V_1 = NULL;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* L_0 = (U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265_il2cpp_TypeInfo_var);
-		U3CU3Ec__DisplayClass30_0__ctor_m4176DD88B13B2B02B2B9E37AC45CE2E465BD2F81(L_0, NULL);
+		U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* L_0 = (U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass33_0__ctor_m54C703DD90AFFE9EB96886B77F7E9E059A347710(L_0, NULL);
 		V_0 = L_0;
-		U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* L_1 = V_0;
+		U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* L_1 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___5_onClick;
 		NullCheck(L_1);
 		L_1->___onClick = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onClick), (void*)L_2);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:266>
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:267>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:279>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:280>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_3 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)3);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_4 = L_3;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -18506,7 +18601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (Type_t*)L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_13, _stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870, L_10, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:268>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:281>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = L_13;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -18514,12 +18609,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = ___0_parent;
 		NullCheck(L_15);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_15, L_16, (bool)0, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:269>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:282>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = L_14;
 		NullCheck(L_17);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18;
 		L_18 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_17, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:270>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:283>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_18;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20 = L_19;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_2), (0.5f), (0.5f), NULL);
@@ -18529,16 +18624,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22 = V_2;
 		NullCheck(L_20);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_20, L_22, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:271>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:284>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_23 = L_19;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = ___2_pos;
 		NullCheck(L_23);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_23, L_24, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:272>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:285>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25 = ___3_size;
 		NullCheck(L_23);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_23, L_25, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:273>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:286>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = L_17;
 		NullCheck(L_26);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_27;
@@ -18546,23 +18641,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28 = ___4_bgColor;
 		NullCheck(L_27);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_27, L_28);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:274>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:287>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_26;
 		NullCheck(L_29);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_30;
 		L_30 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_29, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
 		V_1 = L_30;
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:275>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:288>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_31 = V_1;
 		NullCheck(L_31);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_32;
 		L_32 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_31, NULL);
-		U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* L_33 = V_0;
+		U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* L_33 = V_0;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_34 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
-		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_34, L_33, (intptr_t)((void*)U3CU3Ec__DisplayClass30_0_U3CMakeButtonU3Eb__0_mD3C13613A5C667F7A50190D92A82CD5E5F6FD5CD_RuntimeMethod_var), NULL);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_34, L_33, (intptr_t)((void*)U3CU3Ec__DisplayClass33_0_U3CMakeButtonU3Eb__0_m4ADDB8D3424F41CEFD1384016D664C68A249E12A_RuntimeMethod_var), NULL);
 		NullCheck(L_32);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_32, L_34, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:276>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:289>
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
 		L_35 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_29, NULL);
@@ -18575,12 +18670,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		il2cpp_codegen_runtime_class_init_inline(EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C_il2cpp_TypeInfo_var);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_40;
 		L_40 = EncyclopediaUI_MakeText_m5E8A97277A890C30B25C2EDFAC72BFE5A401B228(L_35, L_36, L_37, L_38, (22.0f), L_39, (bool)1, NULL);
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:277>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:290>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_41 = V_1;
 		return L_41;
 	}
 }
-// Method Definition Index: 51973
+// Method Definition Index: 51974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI__ctor_m543A570F7BA8221887C312E7E555A0F6EFA97DDF (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18590,7 +18685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI__ctor_m543A570F7BA8221887
 		return;
 	}
 }
-// Method Definition Index: 51974
+// Method Definition Index: 51975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI__cctor_mEDB571FF10EBBE46097D6E0852BB48C308FC9909 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18613,20 +18708,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI__cctor_mEDB571FF10EBBE460
 		return;
 	}
 }
-// Method Definition Index: 51975
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_U3CBuildFooterU3Eb__25_0_m6B3004CCF0D39BA96DA09781FF8C5EC96A77E264 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) 
+// Method Definition Index: 51976
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_U3CBuildFooterU3Eb__28_0_mF856CC8B20B175D4F9D2A05EA207526A11A05737 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:211>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:224>
 		EncyclopediaUI_SetLanguage_m0315875EDFC1DBE1003F42084ADD8229EC63D5A3(__this, (bool)1, NULL);
 		return;
 	}
 }
-// Method Definition Index: 51976
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_U3CBuildFooterU3Eb__25_1_m607CDD0C08B7089A66D9B2AB0B27700742DDF0E8 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) 
+// Method Definition Index: 51977
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_U3CBuildFooterU3Eb__28_1_mC8B005CEF053AD4AF1C32FBEDB91CE766ACA71A1 (EncyclopediaUI_t4CB654ED4333CF6CDADD672E9DFEB2E61B61FD5C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:215>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:228>
 		EncyclopediaUI_SetLanguage_m0315875EDFC1DBE1003F42084ADD8229EC63D5A3(__this, (bool)0, NULL);
 		return;
 	}
@@ -18639,21 +18734,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncyclopediaUI_U3CBuildFooterU3Eb__25_1_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 51977
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0__ctor_m4176DD88B13B2B02B2B9E37AC45CE2E465BD2F81 (U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* __this, const RuntimeMethod* method) 
+// Method Definition Index: 51978
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_m54C703DD90AFFE9EB96886B77F7E9E059A347710 (U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 51978
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0_U3CMakeButtonU3Eb__0_mD3C13613A5C667F7A50190D92A82CD5E5F6FD5CD (U3CU3Ec__DisplayClass30_0_t2B2BF6E713E410B0DEFD67C20EFBF5919A12B265* __this, const RuntimeMethod* method) 
+// Method Definition Index: 51979
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0_U3CMakeButtonU3Eb__0_m4ADDB8D3424F41CEFD1384016D664C68A249E12A (U3CU3Ec__DisplayClass33_0_t128BE3872814FFA5D10E91C338955B5E90DF1C9F* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:275>
+		//<source_info:C:/Users/Administrator/Desktop/claude project/My project/Assets/Scripts/Encyclopedia/EncyclopediaUI.cs:288>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___onClick;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -18698,7 +18793,7 @@ IL_000b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 51979
+// Method Definition Index: 51980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemData__ctor_mE45701993578016C9B2E439E01BFD91E13EBEAF0 (ItemData_t7FB0F9911AFA201D097B2B0D2353002ECE882538* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18716,7 +18811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemData__ctor_mE45701993578016C9B2E439E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 51980
+// Method Definition Index: 51981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tD93CE9D2EDB2B46FBC120121CB7946F653F039DA* ItemDatabase_GetItemsByCategory_m519A0E6A3C48DA7E49C80C7E8EDCFD2BF3B93CB3 (ItemDatabase_t5EA1514609FF0F52E3AB3BFE4EF6BDFA1AAB918C* __this, int32_t ___0_category, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18750,7 +18845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tD93CE9D2EDB2B46FBC120121CB7946F653F03
 		return L_7;
 	}
 }
-// Method Definition Index: 51981
+// Method Definition Index: 51982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemDatabase__ctor_mC9BCE3EF65E14465DA66087AAC4134828AE4CBC3 (ItemDatabase_t5EA1514609FF0F52E3AB3BFE4EF6BDFA1AAB918C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18778,7 +18873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemDatabase__ctor_mC9BCE3EF65E14465DA66
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 51982
+// Method Definition Index: 51983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m1C4EC15A0A4609E3644A7D05E5B9FA1856B6C7CD (U3CU3Ec__DisplayClass1_0_t71E369DD651E76646076FBB6558C655CC1C10663* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18786,7 +18881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m1C4EC15A
 		return;
 	}
 }
-// Method Definition Index: 51983
+// Method Definition Index: 51984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass1_0_U3CGetItemsByCategoryU3Eb__0_m09F6ECD9979FE9722AFCEC6B9AA259B6A5475894 (U3CU3Ec__DisplayClass1_0_t71E369DD651E76646076FBB6558C655CC1C10663* __this, ItemData_t7FB0F9911AFA201D097B2B0D2353002ECE882538* ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18827,7 +18922,7 @@ IL_0018:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 51984
+// Method Definition Index: 51985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_Awake_m5A16EE1D66CED088168724D8EDA4029EA4DD2934 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18850,7 +18945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_Awake_m5A16EE1D66CED0
 		return;
 	}
 }
-// Method Definition Index: 51985
+// Method Definition Index: 51986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnDestroy_mCF4FE7FBA19614B09F88BAD54AE73122CE81962C (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18871,7 +18966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnDestroy_mCF4FE7FBA1
 		return;
 	}
 }
-// Method Definition Index: 51986
+// Method Definition Index: 51987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_Start_m26371D166488BA9A98CE757741C6B0A7503C2E9E (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18929,7 +19024,7 @@ IL_0049:
 		return;
 	}
 }
-// Method Definition Index: 51987
+// Method Definition Index: 51988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_InitPanels_m69B52534D5A0CA3373F6D5DE1CB9496EE0326B3C (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19019,7 +19114,7 @@ IL_008a:
 		return;
 	}
 }
-// Method Definition Index: 51988
+// Method Definition Index: 51989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_Update_mB0547EC4AC7DBCFFF9E66D2F793EBA4662EECF8F (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19090,7 +19185,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 51989
+// Method Definition Index: 51990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnTitleTapped_mC205937D86B4E48B564065BD7B3DAF113134874C (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19119,7 +19214,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 51990
+// Method Definition Index: 51991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuController_FadeTransition_m5E5F09C16321AA16F2EE84413A7DCD5BCFCFDE9B (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19138,7 +19233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuController_FadeTransit
 		return L_1;
 	}
 }
-// Method Definition Index: 51991
+// Method Definition Index: 51992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_RefreshSoulstoneText_m7EF1932E361ABFB2DD8B8098C47F9217D5C15397 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19203,7 +19298,7 @@ IL_004c:
 		return;
 	}
 }
-// Method Definition Index: 51992
+// Method Definition Index: 51993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnLanguageChanged_m5114CB801A1529200DB5CF8BECCE35878A819775 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19241,7 +19336,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 51993
+// Method Definition Index: 51994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_AutoFindSoulstoneText_m6793A3722B76ACBB3FC4F8B4C6F50DC1777F2948 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19513,7 +19608,7 @@ IL_007d:
 		return;
 	}
 }
-// Method Definition Index: 51994
+// Method Definition Index: 51995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_PatchButtonSizes_mEB8D913026657E9485CE53877EAD4B773A5E3C2E (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19996,7 +20091,7 @@ IL_03af:
 		return;
 	}
 }
-// Method Definition Index: 51995
+// Method Definition Index: 51996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MainMenuController_GetButtonLocalizationKey_m4866A04FE9BE8D9C84099FDB17BF28374BB33476 (String_t* ___0_buttonName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20405,7 +20500,7 @@ IL_01c6:
 		return L_38;
 	}
 }
-// Method Definition Index: 51996
+// Method Definition Index: 51997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnGameStart_m56C49A123684CE879710079FED041FA46DD22034 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20455,7 +20550,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 51997
+// Method Definition Index: 51998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnShop_m4EA3888C09FE566C2393235504D8C385FCCAA2BA (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20528,7 +20623,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 51998
+// Method Definition Index: 51999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnRecords_mF1AD4C9880542BD9EDA6487AF716AA1F38AE72DF (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	RecordsUI_tEEF9C06E6511C7D1E26DF159050C337F689BD571* G_B2_0 = NULL;
@@ -20557,7 +20652,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 51999
+// Method Definition Index: 52000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnSettings_m1F193A0B6B1389AD5FA128C75083AF2B4FC92333 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	SettingsUI_t44204C97E798FE69CD39737EDB8B9B960C8DC328* G_B2_0 = NULL;
@@ -20586,7 +20681,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 52000
+// Method Definition Index: 52001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnHelp_mBBD3C3C528145BD55686FB50C9BD9AF29A77C551 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20606,7 +20701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnHelp_mBBD3C3C528145
 		return;
 	}
 }
-// Method Definition Index: 52001
+// Method Definition Index: 52002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnTitles_m94B76F9B08400B329F60AF1C38DC25D5F6E6B4B1 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	TitleCollectionUI_t5FDF4AD1AB011C241A2738AFE59A426D26B89B27* G_B2_0 = NULL;
@@ -20635,7 +20730,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 52002
+// Method Definition Index: 52003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnResetStats_m942948C721081DBAB79076795A7FDA5995489C80 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20670,7 +20765,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 52003
+// Method Definition Index: 52004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_ConfirmResetStats_m24BE653AFF281AC5B796092AA1CBF40A065BF264 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* G_B2_0 = NULL;
@@ -20711,7 +20806,7 @@ IL_0016:
 		return;
 	}
 }
-// Method Definition Index: 52004
+// Method Definition Index: 52005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_HideResetConfirm_m687A5F4A006B1954D57056F1FC39944152611E40 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20744,7 +20839,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 52005
+// Method Definition Index: 52006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_EnsureTitleButton_mFD123D6AD5461C74FEAD3734F1021E18AB8252AD (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20945,7 +21040,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 52006
+// Method Definition Index: 52007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_EnsureResetStatsButton_m85E1BE5537FEBF84578A1C96028E87EAE5DB751D (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21146,7 +21241,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 52007
+// Method Definition Index: 52008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_EnsureHelpButton_mB16303BBACB07F2F657218D6690BEB2E9192A2D5 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21347,7 +21442,7 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 52008
+// Method Definition Index: 52009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_EnsureResetConfirmPanel_mBD4DA5407F7FA7232AAF1E110D6BE6C6C4961C39 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21624,7 +21719,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 52009
+// Method Definition Index: 52010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_CreateConfirmButton_m430E69325B1E2043A368B234A0E761DA7D39B08A (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, String_t* ___0_name, String_t* ___1_text, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_anchorMin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_anchorMax, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___4_onClick, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21826,7 +21921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_CreateConfirmButton_m
 		return;
 	}
 }
-// Method Definition Index: 52010
+// Method Definition Index: 52011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnEncyclopedia_m8F28AB3A5B2ADE7234DFE549E52540457E50D2F4 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21897,7 +21992,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 52011
+// Method Definition Index: 52012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_HandleBackButton_mE9FE6E5E80EDA34C38A2F178FF11118DF030C26F (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22214,7 +22309,7 @@ IL_012b:
 		return;
 	}
 }
-// Method Definition Index: 52012
+// Method Definition Index: 52013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_ShowExitHint_mD4DFB339B37BB3EEE43B0E3A28FF017FFFDC315B (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22379,7 +22474,7 @@ IL_013c:
 		return;
 	}
 }
-// Method Definition Index: 52013
+// Method Definition Index: 52014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuController_HideExitHintAfterDelay_m0AF57067D3C774527B13AB7D5865E23EEA7F6E0D (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22398,7 +22493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuController_HideExitHin
 		return L_1;
 	}
 }
-// Method Definition Index: 52014
+// Method Definition Index: 52015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnQuit_mCD41850A8B198D949511A7D0F774C9CDD1DB3FD7 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22420,7 +22515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_OnQuit_mCD41850A8B198
 		return;
 	}
 }
-// Method Definition Index: 52015
+// Method Definition Index: 52016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController_EnsureEncyclopediaUI_m03245EFF02D210258387F783635A1CC034EA6F40 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22530,7 +22625,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 52016
+// Method Definition Index: 52017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController__ctor_m9727FC638FDF6BDF302E10C6351846B395013EA4 (MainMenuController_tC1AE80D8996B3AE38DACF2ABDAF9FC95E0293569* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22550,7 +22645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuController__ctor_m9727FC638FDF6B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52017
+// Method Definition Index: 52018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeTransitionU3Ed__17__ctor_mB7F64DC9A96C972BC5572713AE8353E74F9A689D (U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -22560,14 +22655,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeTransitionU3Ed__17__ctor_mB7F64DC
 		return;
 	}
 }
-// Method Definition Index: 52018
+// Method Definition Index: 52019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeTransitionU3Ed__17_System_IDisposable_Dispose_mCF4E35A6B1F1F8EECA37663210C8761F0933B02C (U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 52019
+// Method Definition Index: 52020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeTransitionU3Ed__17_MoveNext_mA8AB3445D5733B463BB9D6616B8D041BEEB84231 (U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22840,7 +22935,7 @@ IL_0197:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 52020
+// Method Definition Index: 52021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeTransitionU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD198045E44EA9498CE1A9300B17F869EA5966EA4 (U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22848,7 +22943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeTransitionU3Ed__17_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 52021
+// Method Definition Index: 52022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeTransitionU3Ed__17_System_Collections_IEnumerator_Reset_m69251ADC9E259013D759053E91AF0EB5EE0F46F7 (U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22857,7 +22952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeTransitionU3Ed__17_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadeTransitionU3Ed__17_System_Collections_IEnumerator_Reset_m69251ADC9E259013D759053E91AF0EB5EE0F46F7_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 52022
+// Method Definition Index: 52023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeTransitionU3Ed__17_System_Collections_IEnumerator_get_Current_m79FE75D6FB61010E5C0FD33E6D005072994665ED (U3CFadeTransitionU3Ed__17_tACA320E68365B3E95CB8E5A1AC66DCC423196F75* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22873,7 +22968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeTransitionU3Ed__17_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52023
+// Method Definition Index: 52024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideExitHintAfterDelayU3Ed__40__ctor_m5C1CBCFC64D72B6354AF10FF371A56FA8341F240 (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -22883,14 +22978,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideExitHintAfterDelayU3Ed__40__ctor_
 		return;
 	}
 }
-// Method Definition Index: 52024
+// Method Definition Index: 52025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideExitHintAfterDelayU3Ed__40_System_IDisposable_Dispose_m532E373102F8DD748A8E0FAC9B5BF021F1386001 (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 52025
+// Method Definition Index: 52026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHideExitHintAfterDelayU3Ed__40_MoveNext_m535143507A0FF2418A781AD16D25AF1A46FB4D80 (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22969,7 +23064,7 @@ IL_005d:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 52026
+// Method Definition Index: 52027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHideExitHintAfterDelayU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m83E80D5348901AA92A8ECBA9BB4A7B103589EBD2 (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22977,7 +23072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHideExitHintAfterDelayU3Ed_
 		return L_0;
 	}
 }
-// Method Definition Index: 52027
+// Method Definition Index: 52028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideExitHintAfterDelayU3Ed__40_System_Collections_IEnumerator_Reset_m98DF92BE78279260FC585EFF05BA017E4EFCEB4F (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22986,7 +23081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideExitHintAfterDelayU3Ed__40_System
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHideExitHintAfterDelayU3Ed__40_System_Collections_IEnumerator_Reset_m98DF92BE78279260FC585EFF05BA017E4EFCEB4F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 52028
+// Method Definition Index: 52029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHideExitHintAfterDelayU3Ed__40_System_Collections_IEnumerator_get_Current_m64E26B893D736A19499C95CE95D18727F7F3790D (U3CHideExitHintAfterDelayU3Ed__40_t0B18E0DB5592628D254C8E4D68B4B4434E19E052* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23002,7 +23097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHideExitHintAfterDelayU3Ed_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52029
+// Method Definition Index: 52030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* BackgroundManager_get_I_m790FE30F1ED07DED8B7155801931586A6509D6DD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23018,7 +23113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BackgroundManager_tF7A832AE2AAAB8B7AAE58992B0
 		return L_0;
 	}
 }
-// Method Definition Index: 52030
+// Method Definition Index: 52031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_set_I_m60830BD5D123631D0D7D475228EA4862DF539868 (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23036,7 +23131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_set_I_m60830BD5D123631
 		return;
 	}
 }
-// Method Definition Index: 52031
+// Method Definition Index: 52032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_Awake_m67F9970AFE76A58AE55A9FA0F561A6B267F1CF6D (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23111,7 +23206,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 52032
+// Method Definition Index: 52033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_Update_m13C4482CCC0FDBC247881EE60FFE70126D881F22 (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23178,7 +23273,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 52033
+// Method Definition Index: 52034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_EnsureInstance_mC1D924C1A468F4EACFCB54B09A8FAA1F5B1723A2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23222,7 +23317,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 52034
+// Method Definition Index: 52035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_ChangeBackground_mD94058CABB18C21BB4F4F7C938046BFAA2F23ED7 (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23263,7 +23358,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 52035
+// Method Definition Index: 52036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager_ApplyBackground_m67ED331B9CA40667D0B9CFA3551CE346632341A7 (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23478,7 +23573,7 @@ IL_016a:
 		return;
 	}
 }
-// Method Definition Index: 52036
+// Method Definition Index: 52037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager__ctor_m9DCDCF7ED0C5321B6E4AA7CD7CDED821E39E1F4E (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23486,7 +23581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager__ctor_m9DCDCF7ED0C5321
 		return;
 	}
 }
-// Method Definition Index: 52037
+// Method Definition Index: 52038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager__cctor_mFED5BACF31D5CAC59923C7A5D18603A25C0E964E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23566,7 +23661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundManager__cctor_mFED5BACF31D5CA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52038
+// Method Definition Index: 52039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager_add_OnTitleUnlocked_m026716CDBE8E6AB56906BA4D19C24C9BECE91E59 (Action_1_t24838BB8805E522352FB1CC51E9ACC63CF6B1B84* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23611,7 +23706,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52039
+// Method Definition Index: 52040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager_remove_OnTitleUnlocked_m7CFA808F7D3EE7F7C3E8CA614958AAC9476A9C4F (Action_1_t24838BB8805E522352FB1CC51E9ACC63CF6B1B84* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23656,7 +23751,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52040
+// Method Definition Index: 52041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BadgeTitleManager_get_AllDefinitions_m46DA6C3DFFAEFC0FDB73DDAE641DAD97176633A6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23672,7 +23767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BadgeTitleManager_get_AllDefin
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 52041
+// Method Definition Index: 52042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TitleBuffBonus_t672831F3C04D40AF6946799D7C488EE53C716123 BadgeTitleManager_GetBuff_mC822811B948D449D503369EBDD306D3A73CFAA7D (String_t* ___0_titleId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24155,7 +24250,7 @@ IL_02b4:
 		return L_55;
 	}
 }
-// Method Definition Index: 52042
+// Method Definition Index: 52043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager_RecordEnemyKill_mF3EB9A9F443B2FF26EEFD7342D1D15A271F71819 (EnemyBase_t46A1023DF0F7435FF4B79D1E0339B9FAA6F9E28D* ___0_enemy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24313,7 +24408,7 @@ IL_0096:
 		return;
 	}
 }
-// Method Definition Index: 52043
+// Method Definition Index: 52044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BadgeTitleManager_GetKillCount_m8FAF7FCFC7246BDE44D4439ADB9A6114C931E828 (String_t* ___0_enemyId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24333,7 +24428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BadgeTitleManager_GetKillCount_m8FAF7
 		return L_2;
 	}
 }
-// Method Definition Index: 52044
+// Method Definition Index: 52045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BadgeTitleManager_IsUnlocked_mC295251F2D109B2A735A01FE8335763165074497 (String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24353,7 +24448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BadgeTitleManager_IsUnlocked_mC295251F2D
 		return (bool)((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
 	}
 }
-// Method Definition Index: 52045
+// Method Definition Index: 52046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE9D5B527D33E0A41F15F3DA1488680327BB5B7B6* BadgeTitleManager_GetUnlockedTitles_mA495FB837DEE7D42BFFBA17A526E71C11A778D29 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24434,7 +24529,7 @@ IL_0030:
 		return L_14;
 	}
 }
-// Method Definition Index: 52046
+// Method Definition Index: 52047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_get_EquippedTitleId_mE1A0D80983D06B8B2A29A3B982EC7084F428D6D2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24451,7 +24546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_get_EquippedTitle
 		return L_1;
 	}
 }
-// Method Definition Index: 52047
+// Method Definition Index: 52048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BadgeTitleManager_TryEquipTitle_m06D7D2800CDE8FBADF0C53D408738C0B0B7E45E5 (String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24499,7 +24594,7 @@ IL_0012:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 52048
+// Method Definition Index: 52049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BadgeTitleManager_TryGetEquippedTitle_mBC06BC40777DBFB4A73906509AD4E181C3E0C952 (BadgeTitleDefinition_t831ABF653E1A4FEA71FB2C5C8D729DC816D702EC* ___0_title, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24601,7 +24696,7 @@ IL_0040:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 52049
+// Method Definition Index: 52050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager_IncrementKill_m456DB95B16D95D7DF6DC130CA97245E9C16E80E6 (String_t* ___0_enemyId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24624,7 +24719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager_IncrementKill_m456DB95
 		return;
 	}
 }
-// Method Definition Index: 52050
+// Method Definition Index: 52051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager_Unlock_mF8AE0F8F0F6BA1088FBCDAD233DF87E3650992F6 (BadgeTitleDefinition_t831ABF653E1A4FEA71FB2C5C8D729DC816D702EC ___0_def, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24678,7 +24773,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 52051
+// Method Definition Index: 52052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_NormalizeEnemyId_m0D3CE325306B0E2774DBAEEF2DE926182323A141 (EnemyBase_t46A1023DF0F7435FF4B79D1E0339B9FAA6F9E28D* ___0_enemy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24730,7 +24825,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 52052
+// Method Definition Index: 52053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_KillKey_m335889AB6FB5BAF76ACBE4B76E3554BA8DDDB225 (String_t* ___0_enemyId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24747,7 +24842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_KillKey_m335889AB
 		return L_1;
 	}
 }
-// Method Definition Index: 52053
+// Method Definition Index: 52054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_UnlockKey_m1473EAF0DE526030381980CEE760385F9DDEC6F9 (String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24764,7 +24859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BadgeTitleManager_UnlockKey_m1473EA
 		return L_1;
 	}
 }
-// Method Definition Index: 52054
+// Method Definition Index: 52055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadgeTitleManager__cctor_m3DCF0742CBE9721B557140EE416255B86AA3209C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25413,7 +25508,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DoosulInventory_t9A2957BC1FB5FBCE
 		return L_0;
 	}
 }
-// Method Definition Index: 52147
+// Method Definition Index: 52152
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameMgr_tA9B8A02BBB15A39730529DCF372D2F9F34A695FA* GameMgr_get_I_m987BD4B61114DA9F9FAEB27E879CF79030671052_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25428,7 +25523,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameMgr_tA9B8A02BBB15A39730529DCF
 		return L_0;
 	}
 }
-// Method Definition Index: 52149
+// Method Definition Index: 52154
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameMgr_get_State_m3CE5520128D210CFD6ACE2894A26254F14F60F1B_inline (GameMgr_tA9B8A02BBB15A39730529DCF372D2F9F34A695FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25525,7 +25620,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_3;
 	}
 }
-// Method Definition Index: 52594
+// Method Definition Index: 52599
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerBuffs_t510A8775A29F558DD5B8A4B3EA40EDB6D7F04E02* PlayerBuffs_get_I_mF761D159CAE405470FF3FE006C3B66ED01E3F946_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25540,7 +25635,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerBuffs_t510A8775A29F558DD5B8
 		return L_0;
 	}
 }
-// Method Definition Index: 52609
+// Method Definition Index: 52614
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayerBuffs_get_AttackMultiplier_m2E3EEB6D95890B33244760E08D1E235308AA6DF0_inline (PlayerBuffs_t510A8775A29F558DD5B8A4B3EA40EDB6D7F04E02* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25607,7 +25702,7 @@ IL_0027:
 		return L_7;
 	}
 }
-// Method Definition Index: 52651
+// Method Definition Index: 52656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PlayerController_get_MoveDir_mEFD7E6CD31D13F76FD784525FCC7216182F0680E_inline (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26058,7 +26153,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 52126
+// Method Definition Index: 52131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* GameManager_get_I_m7830190432117585230160852EFA75B240D4217D_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26073,7 +26168,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FD
 		return L_0;
 	}
 }
-// Method Definition Index: 52130
+// Method Definition Index: 52135
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PersistentData_tAD15D5F90AFA8DF6B494AD6C50CDB2E86118726B* GameManager_get_Persistent_m219DA956585888B70CB2D2364BAEF5F5B6DD13EF_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26082,7 +26177,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PersistentData_tAD15D5F90AFA8DF6B
 		return L_0;
 	}
 }
-// Method Definition Index: 64374
+// Method Definition Index: 64379
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26091,7 +26186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ColorBlock_tDD7C62E7AFE442652FC98
 		return L_0;
 	}
 }
-// Method Definition Index: 63357
+// Method Definition Index: 63362
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8_inline (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26122,7 +26217,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 63316
+// Method Definition Index: 63321
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26168,7 +26263,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EncyclopediaDatabase_tE33C5C0D05F
 		return L_0;
 	}
 }
-// Method Definition Index: 63359
+// Method Definition Index: 63364
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_highlightedColor_m04E97DF2CCE7CAC47120D8F486E18BF62F16FF86_inline (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26213,7 +26308,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EncyclopediaUI_set_Instance_
 		return;
 	}
 }
-// Method Definition Index: 64277
+// Method Definition Index: 64282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_horizontal_m99C076AF2B2B596C87435E1465EF0B104281B150_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26224,7 +26319,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_horizontal_m9
 		return;
 	}
 }
-// Method Definition Index: 64279
+// Method Definition Index: 64284
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_vertical_m972088E788E72690AAE139E7C0F8F634C325E7CE_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26235,7 +26330,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_vertical_m972
 		return;
 	}
 }
-// Method Definition Index: 64289
+// Method Definition Index: 64294
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_scrollSensitivity_m07A6D8B94625BC52775BED72633CCBEA41E27E1D_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26246,7 +26341,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_scrollSensiti
 		return;
 	}
 }
-// Method Definition Index: 64281
+// Method Definition Index: 64286
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_movementType_m2A900C10E6C005FD6866EFF1DA2DF78AA957534A_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26257,7 +26352,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_movementType_
 		return;
 	}
 }
-// Method Definition Index: 64275
+// Method Definition Index: 64280
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_content_m01BF6FE0205985CBD16C6D3BB4B6F345B3AF484E_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26269,7 +26364,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScrollRect_set_content_m01BF
 		return;
 	}
 }
-// Method Definition Index: 52090
+// Method Definition Index: 52091
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameLocalization_t46B9A84495819AD58F1A2AA5F33916021311AEC1* GameLocalization_get_I_m46D406FF52E88DE541F74ED1ED0F9A82321A333C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26285,7 +26380,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameLocalization_t46B9A84495819AD
 		return L_0;
 	}
 }
-// Method Definition Index: 53267
+// Method Definition Index: 53272
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ShopUI_t962C10A7606C823D4BD8CA1BE8C8A0BF882C05CA* ShopUI_get_I_m305A039D3551EABFFF96D4CD3955FEACEC25AD80_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26301,7 +26396,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ShopUI_t962C10A7606C823D4BD8CA1BE
 		return L_0;
 	}
 }
-// Method Definition Index: 53217
+// Method Definition Index: 53222
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RecordsUI_tEEF9C06E6511C7D1E26DF159050C337F689BD571* RecordsUI_get_I_mD1DD87275AD86DE5DDEBF08719B065C405244650_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26316,7 +26411,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RecordsUI_tEEF9C06E6511C7D1E26DF1
 		return L_0;
 	}
 }
-// Method Definition Index: 53233
+// Method Definition Index: 53238
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SettingsUI_t44204C97E798FE69CD39737EDB8B9B960C8DC328* SettingsUI_get_I_mECF6B71D07034AFC93A78DE272B80D60DCD7A7A8_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26331,7 +26426,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SettingsUI_t44204C97E798FE69CD397
 		return L_0;
 	}
 }
-// Method Definition Index: 53329
+// Method Definition Index: 53334
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TitleCollectionUI_t5FDF4AD1AB011C241A2738AFE59A426D26B89B27* TitleCollectionUI_get_I_m4F90E0C1D01319549A0061F90142CAAF12E0F728_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26361,7 +26456,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B43952
 		return L_0;
 	}
 }
-// Method Definition Index: 53346
+// Method Definition Index: 53351
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TutorialUI_t3B21B2A0139FDEDE58B81A43AC3186EB33106D89* TutorialUI_get_I_m19BEE00BE4FB116BD529E25675766AF860795A5E_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26377,7 +26472,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TutorialUI_t3B21B2A0139FDEDE58B81
 		return L_0;
 	}
 }
-// Method Definition Index: 52029
+// Method Definition Index: 52030
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* BackgroundManager_get_I_m790FE30F1ED07DED8B7155801931586A6509D6DD_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26393,7 +26488,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BackgroundManager_tF7A832AE2AAAB8
 		return L_0;
 	}
 }
-// Method Definition Index: 52030
+// Method Definition Index: 52031
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackgroundManager_set_I_m60830BD5D123631D0D7D475228EA4862DF539868_inline (BackgroundManager_tF7A832AE2AAAB8B7AAE58992B00BA51EF459D7EB* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

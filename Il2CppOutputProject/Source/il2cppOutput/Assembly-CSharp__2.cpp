@@ -21731,7 +21731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRockSurgeProjectileU3Ed__95
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 52147
+// Method Definition Index: 52152
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameMgr_tA9B8A02BBB15A39730529DCF372D2F9F34A695FA* GameMgr_get_I_m987BD4B61114DA9F9FAEB27E879CF79030671052_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21746,7 +21746,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameMgr_tA9B8A02BBB15A39730529DCF
 		return L_0;
 	}
 }
-// Method Definition Index: 52163
+// Method Definition Index: 52168
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameMgr_get_StageNumber_m7B70566ED4CF7B2A5D3C4C231D367CF0CAC0B645_inline (GameMgr_tA9B8A02BBB15A39730529DCF372D2F9F34A695FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21978,7 +21978,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_4;
 	}
 }
-// Method Definition Index: 52677
+// Method Definition Index: 52682
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerStats_t342810FB47D12358A0FB28B541C79C5D04819BE8* PlayerStats_get_I_mD8A938AF98D286CDA778D6DD20F08F0C1AB85798_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21993,7 +21993,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerStats_t342810FB47D12358A0FB
 		return L_0;
 	}
 }
-// Method Definition Index: 52594
+// Method Definition Index: 52599
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerBuffs_t510A8775A29F558DD5B8A4B3EA40EDB6D7F04E02* PlayerBuffs_get_I_mF761D159CAE405470FF3FE006C3B66ED01E3F946_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22008,7 +22008,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerBuffs_t510A8775A29F558DD5B8
 		return L_0;
 	}
 }
-// Method Definition Index: 52149
+// Method Definition Index: 52154
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameMgr_get_State_m3CE5520128D210CFD6ACE2894A26254F14F60F1B_inline (GameMgr_tA9B8A02BBB15A39730529DCF372D2F9F34A695FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22017,7 +22017,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameMgr_get_State_m3CE552
 		return L_0;
 	}
 }
-// Method Definition Index: 52642
+// Method Definition Index: 52647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlayerController_get_MaxHp_m275EB420BDE592476877AA7D7C39EABFF0528F64_inline (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22175,7 +22175,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DoosulInventory_set_I_mD20CD
 		return;
 	}
 }
-// Method Definition Index: 52151
+// Method Definition Index: 52156
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameMgr_get_SelectedCharacter_mB9A0019A50322EDA2043A5EF5142CB8F6010C402_inline (GameMgr_tA9B8A02BBB15A39730529DCF372D2F9F34A695FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22257,7 +22257,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DoosulSkillSystem_set_I_mEEF
 		return;
 	}
 }
-// Method Definition Index: 52126
+// Method Definition Index: 52131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* GameManager_get_I_m7830190432117585230160852EFA75B240D4217D_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22272,7 +22272,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FD
 		return L_0;
 	}
 }
-// Method Definition Index: 52128
+// Method Definition Index: 52133
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* GameManager_get_Run_m3A3A4187E8B78F177D05A9F1D9417D5304B9B5CA_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22355,7 +22355,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 52611
+// Method Definition Index: 52616
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayerBuffs_get_CooldownMultiplier_mC34F2AD6EAC22F5CB4DF7E1E81E674AE2879CFA7_inline (PlayerBuffs_t510A8775A29F558DD5B8A4B3EA40EDB6D7F04E02* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22364,7 +22364,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayerBuffs_get_CooldownMul
 		return L_0;
 	}
 }
-// Method Definition Index: 52651
+// Method Definition Index: 52656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PlayerController_get_MoveDir_mEFD7E6CD31D13F76FD784525FCC7216182F0680E_inline (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22470,7 +22470,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7))));
 	}
 }
-// Method Definition Index: 53380
+// Method Definition Index: 53385
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CameraShake_tAC55122F42E0B2A0581731E4C9799A5A8A0D7CA1* CameraShake_get_I_mC7142962C4187811A0A6777753390A39205EEC80_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22750,7 +22750,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 52636
+// Method Definition Index: 52641
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* PlayerController_get_I_m0D1CE11A48422D348440E6C2A53E2D19C114751D_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22765,7 +22765,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerController_t7E8D7042FA2D0DF
 		return L_0;
 	}
 }
-// Method Definition Index: 52638
+// Method Definition Index: 52643
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayerController_get_MoveSpeed_m11D9C6DC78340207980A5BAB2B671A60EB1CD1A5_inline (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22784,7 +22784,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 52663
+// Method Definition Index: 52668
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerController_SetInvincible_m152FE01635BD9D36D11B9F9E9ADC0C08914CEFA2_inline (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -22848,7 +22848,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 52609
+// Method Definition Index: 52614
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayerBuffs_get_AttackMultiplier_m2E3EEB6D95890B33244760E08D1E235308AA6DF0_inline (PlayerBuffs_t510A8775A29F558DD5B8A4B3EA40EDB6D7F04E02* __this, const RuntimeMethod* method) 
 {
 	{
