@@ -1,0 +1,66 @@
+workflows:
+  ios-workflow:
+    name: K-Survivor iOS
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+
+    integrations:
+      app_store_connect: codemagic
+
+    environment:
+      # 주의: environment.ios_signing (자동 서명)은 절대 넣지 말 것.
+      groups:
+        - ios_signing_key_ksurvivor
+      vars:
+        BUNDLE_ID: "com.Kmostersuvivor"
+        XCODE_PROJECT: "Unity-iPhone.xcodeproj"
+        XCODE_SCHEME: "Unity-iPhone"
+        APP_STORE_APPLE_ID: 6788802093
+      xcode: latest
+
+    scripts:
+      - name: Git LFS 파일 확실히 받아오기
+        script: |
+          git lfs pull
+
+      - name: 키체인 초기화
+        script: |
+          keychain initialize
+
+      - name: 서명서 가져오기/생성
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --certificate-key "$CERTIFICATE_PRIVATE_KEY" \
+            --create
+
+      - name: 인증서를 키체인에 등록
+        script: |
+          keychain add-certificates
+
+      - name: 코드 서명 설정 적용
+        script: |
+          xcode-project use-profiles
+
+      - name: CocoaPods 설치 (AdMob 네이티브 SDK 때문에 필요)
+        script: |
+          pod install
+
+      - name: 빌드 번호 자동 증가
+        script: |
+          agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID") + 1))
+
+      - name: IPA 빌드
+        script: |
+          xcode-project build-ipa \
+            --workspace "Unity-iPhone.xcworkspace" \
+            --scheme "$XCODE_SCHEME"
+
+    artifacts:
+      - "**/*.ipa"
+      - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
